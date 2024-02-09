@@ -1,0 +1,44 @@
+
+form{
+   
+    padding-top: 10px;
+    padding-left: 10px;
+background-color: rgb(255, 255, 255);
+width: 400px;
+height: 300px;
+border-radius: 5px;
+margin: 50px auto;
+}
+#button {
+    background-color: rgb(99, 189, 10);
+color: aliceblue;
+border-radius: 5px;
+cursor: pointer;
+border: none;
+height: 20px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(217, 217, 217);
+}
+.po{
+    padding-right: 7%;
+padding-bottom: 3%;
+}
+h1{
+    text-align: center;
+}
+div{
+    padding-left: 5px;
+    padding-top: 3px;
+}
+.cc{
+    width: 97%;
+}
+a{
+    color: cornflowerblue;
+}
+input{
+border: none;
+    box-shadow: 0px 0px 2px ;
+}

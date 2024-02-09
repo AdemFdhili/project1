@@ -1,0 +1,42 @@
+.c1 { grid-area: A1; }
+.c2 { grid-area: A2; }
+.c3 { grid-area: A3; }
+.c4 { grid-area: A4; }
+.c5 { grid-area: A5; }
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+   'A1 A1 A2 A2 A5 A5'
+   'A3 A3 A4 A4 A5 A5';
+    gap: 10px;
+  }
+  div {
+    padding: 20px;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 10px;
+   color: white;
+  }
+ 
+  .c5 {
+    background-color: darkgrey;
+    cursor: pointer;
+    transition: background-color 2s ease-out
+   }
+ 
+  
+  .cl{
+   background-color: rgb(107, 125, 189);
+  cursor: pointer; 
+  transition: background-color 2s ease-in
+}
+
+.cl:hover{
+    background-color:rgb(58, 68, 107) ;
+    height: 50px;
+}  
+.c5:hover {
+    background-color: rgb(108, 108, 108);
+   
+  }
